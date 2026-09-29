@@ -53,7 +53,7 @@ app/src/main/java/com/smartpantry/manager/
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/SmartPantryManager.git
+   git clone https://github.com/NthabiJantjie/SmartPantryManager.git
    ```
 2. Open **Android Studio** → **File → Open** → select the `SmartPantryManager` folder
 3. Wait for Gradle sync to complete (first sync downloads ~200 MB of dependencies)
@@ -90,7 +90,3 @@ Located in [`RecipeDao.java`](app/src/main/java/com/smartpantry/manager/database
 - The **Almost There** tab shows recipes where exactly 1 ingredient fails the check
 
 ---
-
-## Academic Integrity
-
-This project was built as an individual assignment for Mobile App Development 700 at Richfield Graduate Institute of Technology. All code is original work.
