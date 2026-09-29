@@ -1,0 +1,19 @@
+﻿# Build outputs
+/build/
+/app/build/
+.gradle/
+
+# Local SDK config (machine-specific)
+local.properties
+
+# Android Studio / IntelliJ IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+captures/
+
+# Keystore files - never commit
+*.jks
+*.keystore
