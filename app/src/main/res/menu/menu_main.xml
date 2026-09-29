@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/menu_sort"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_filter_expired"
+        android:title="@string/menu_filter_expired"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_expired"
+        android:title="@string/menu_clear_expired"
+        app:showAsAction="never" />
+
+</menu>

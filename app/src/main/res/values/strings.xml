@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="ok">OK</string>
+
+    <!-- Main screen -->
+    <string name="total_items">Total Items</string>
+    <string name="expiring_soon">Expiring Soon</string>
+    <string name="expired">Expired</string>
+    <string name="no_items">No items in your pantry.\nTap + to add one!</string>
+    <string name="all_categories">All</string>
+    <string name="search_hint">Search pantry…</string>
+    <string name="add_item">Add item</string>
+
+    <!-- Item fields -->
+    <string name="item_name">Item Name *</string>
+    <string name="category">Category</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit">Unit</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="barcode">Barcode (optional)</string>
+    <string name="notes">Notes</string>
+    <string name="date_format_hint">yyyy-MM-dd</string>
+    <string name="pick_date">Pick date</string>
+    <string name="expires">Expires</string>
+    <string name="no_expiry">No expiry</string>
+
+    <!-- Detail screen -->
+    <string name="label_quantity">Quantity:</string>
+    <string name="label_expiry">Expiry Date:</string>
+    <string name="label_barcode">Barcode:</string>
+    <string name="label_added">Added:</string>
+    <string name="expired_label">EXPIRED</string>
+    <string name="expires_today">Expires today!</string>
+    <string name="expires_in_days">Expires in %d day(s)</string>
+    <string name="none">—</string>
+
+    <!-- Add/Edit -->
+    <string name="add_item_title">Add Item</string>
+    <string name="edit_item_title">Edit Item</string>
+    <string name="field_required">This field is required</string>
+    <string name="invalid_quantity">Enter a valid quantity</string>
+    <string name="item_saved">Item saved</string>
+    <string name="item_updated">Item updated</string>
+
+    <!-- Delete -->
+    <string name="delete_title">Delete Item</string>
+    <string name="delete_message">Are you sure you want to delete \'%s\'?</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="undo">Undo</string>
+
+    <!-- Menu -->
+    <string name="menu_sort">Sort</string>
+    <string name="menu_sort_name">By Name</string>
+    <string name="menu_sort_expiry">By Expiry</string>
+    <string name="menu_sort_added">By Date Added</string>
+    <string name="menu_filter_expired">Show Expired Only</string>
+    <string name="menu_clear_expired">Delete All Expired</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_id">expiry_alerts</string>
+    <string name="notif_channel_name">Expiry Alerts</string>
+    <string name="notif_channel_desc">Alerts for items expiring soon</string>
+    <string name="notif_title">Pantry Expiry Alert</string>
+    <string name="notif_text_single">%s is expiring soon!</string>
+    <string name="notif_text_multiple">%d items are expiring soon!</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Suggested Recipes screen -->
+    <string name="suggested_recipes">Suggested Recipes</string>
+    <string name="tab_suggested">✓ Can Make</string>
+    <string name="tab_almost_there">Almost There</string>
+    <string name="no_suggested_recipes">No recipes match your pantry yet.\nAdd more ingredients to get suggestions!</string>
+    <string name="no_almost_there_recipes">No almost-there recipes.\nYou either have everything or nothing close!</string>
+
+    <!-- Recipe detail -->
+    <string name="ingredients">Ingredients</string>
+    <string name="preparation_steps">Preparation Steps</string>
+    <string name="prep_time_label">Prep time:</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_expiry_alerts">Expiry Alerts</string>
+    <string name="settings_expiry_alerts_desc">Get a daily notification when items are expiring soon</string>
+    <string name="settings_alert_days">Alert me when items expire within:</string>
+    <string name="settings_1day">1 day</string>
+    <string name="settings_3days">3 days</string>
+    <string name="settings_7days">7 days</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_metric">Use Metric Units</string>
+    <string name="settings_metric_desc">Display quantities in kg, g, L, mL</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_text">Smart Pantry Manager v1.0\nReduce food waste by tracking your pantry and discovering recipes you can make right now — no shopping required.</string>
+
+    <!-- Default categories -->
+    <string-array name="default_categories">
+        <item>Dairy</item>
+        <item>Meat &amp; Poultry</item>
+        <item>Seafood</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Grains &amp; Cereals</item>
+        <item>Bakery</item>
+        <item>Canned Goods</item>
+        <item>Condiments</item>
+        <item>Beverages</item>
+        <item>Snacks</item>
+        <item>Frozen Foods</item>
+        <item>Spices &amp; Herbs</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Units -->
+    <string-array name="default_units">
+        <item>pcs</item>
+        <item>kg</item>
+        <item>g</item>
+        <item>lb</item>
+        <item>oz</item>
+        <item>L</item>
+        <item>mL</item>
+        <item>cup</item>
+        <item>tbsp</item>
+        <item>tsp</item>
+        <item>pack</item>
+        <item>box</item>
+        <item>can</item>
+        <item>bottle</item>
+        <item>bag</item>
+    </string-array>
+</resources>
