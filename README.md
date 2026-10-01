@@ -90,3 +90,10 @@ Located in [`RecipeDao.java`](app/src/main/java/com/smartpantry/manager/database
 - The **Almost There** tab shows recipes where exactly 1 ingredient fails the check
 
 ---
+
+### Smart-Pantry Manager Video
+
+
+
+
+
