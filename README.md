@@ -1,3 +1,9 @@
+# Smart-Pantry Manager Video
+
+https://github.com/user-attachments/assets/73c6d33f-0ac1-4632-81aa-8b3a3884998b
+
+
+
 # Smart Pantry Manager
 
 A Java Android application that helps users reduce food waste by tracking pantry ingredients and suggesting recipes they can cook **strictly** from what they already have — no shopping trip required.
@@ -90,10 +96,3 @@ Located in [`RecipeDao.java`](app/src/main/java/com/smartpantry/manager/database
 - The **Almost There** tab shows recipes where exactly 1 ingredient fails the check
 
 ---
-
-### Smart-Pantry Manager Video
-
-
-
-
-
