@@ -1,4 +1,4 @@
-# Smart-Pantry Manager Video
+## Smart-Pantry Manager Video
 
 https://github.com/user-attachments/assets/73c6d33f-0ac1-4632-81aa-8b3a3884998b
 
